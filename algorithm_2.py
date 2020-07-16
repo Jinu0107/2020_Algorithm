@@ -1,3 +1,10 @@
+# level : 1
+# link : https://programmers.co.kr/learn/courses/30/lessons/64061
+# title : 크레인 인형뽑기 게임
+# key : stack
+
+
+
 
 def solution(board, moves):
     stack = []
@@ -25,8 +32,3 @@ print(solution([[0,0,0,0,0],
           [3,5,1,3,1]]	, [1,5,3,5,1,2,1,4]))
 
 
-arr = [1,2,3,4,5,6,7]
-print(arr[-1] , arr[-2])
-arr.pop()
-arr.pop()
-print(arr)
