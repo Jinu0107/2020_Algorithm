@@ -17,8 +17,8 @@ def solution(board, moves):
 
                 if len(stack) > 1:
                     if(stack[-1] == stack[-2]):
-                        stack.pop(-1)
-                        stack.pop(-1)
+                        stack.pop()
+                        stack.pop()
                         answer += 2
                 break
     return answer
