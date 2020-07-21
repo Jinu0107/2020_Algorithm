@@ -6,7 +6,3 @@ def solution(n):
             number -= set(range(i*2, n+1, i))
 
     return len(number)
-
-
-
-print(solution(10))
