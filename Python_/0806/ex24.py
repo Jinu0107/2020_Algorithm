@@ -43,6 +43,6 @@
 
 
 def solution(price, grade):
-    return (1 - {"S": 0.05, "G": 0.1, "V": 0.15}[grade]) * price
+    return int((1 - {"S": 0.05, "G": 0.1, "V": 0.15}[grade]) * price)
     
 print(solution(96900 , "S"))
